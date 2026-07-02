@@ -1,0 +1,10 @@
+name: StrokePrediction
+
+conda_env: conda.yaml
+
+entry_points:
+  train:
+    command: "python modelling.py"
+
+  tuning:
+    command: "python modelling_tuning.py"
