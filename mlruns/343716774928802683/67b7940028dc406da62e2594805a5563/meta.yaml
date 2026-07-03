@@ -1,0 +1,15 @@
+artifact_uri: file:///home/satria/Documents/Workflow-CI-Pandu-Satria/mlruns/343716774928802683/67b7940028dc406da62e2594805a5563/artifacts
+end_time: 1783076165134
+entry_point_name: ''
+experiment_id: '343716774928802683'
+lifecycle_stage: active
+run_id: 67b7940028dc406da62e2594805a5563
+run_name: gaudy-owl-490
+run_uuid: 67b7940028dc406da62e2594805a5563
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783076155833
+status: 3
+tags: []
+user_id: satria

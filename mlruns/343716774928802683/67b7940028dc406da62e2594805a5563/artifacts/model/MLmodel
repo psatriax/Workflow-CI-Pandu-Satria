@@ -1,0 +1,31 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.14
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+mlflow_version: 2.19.0
+model_size_bytes: 3532744
+model_uuid: 169017a9fed74289b1e932156f6fd0ca
+run_id: 67b7940028dc406da62e2594805a5563
+signature:
+  inputs: '[{"type": "long", "name": "gender", "required": true}, {"type": "double",
+    "name": "age", "required": true}, {"type": "long", "name": "hypertension", "required":
+    true}, {"type": "long", "name": "heart_disease", "required": true}, {"type": "long",
+    "name": "ever_married", "required": true}, {"type": "long", "name": "work_type",
+    "required": true}, {"type": "long", "name": "Residence_type", "required": true},
+    {"type": "double", "name": "avg_glucose_level", "required": true}, {"type": "double",
+    "name": "bmi", "required": true}, {"type": "long", "name": "smoking_status", "required":
+    true}, {"type": "long", "name": "age_group", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2026-07-03 10:55:59.525604'

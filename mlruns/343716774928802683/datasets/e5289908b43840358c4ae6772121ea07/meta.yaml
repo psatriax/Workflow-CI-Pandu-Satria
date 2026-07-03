@@ -1,0 +1,14 @@
+digest: 220539c2
+name: dataset
+profile: '{"num_rows": 3189, "num_elements": 35079}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "gender", "required": true},
+  {"type": "double", "name": "age", "required": true}, {"type": "long", "name": "hypertension",
+  "required": true}, {"type": "long", "name": "heart_disease", "required": true},
+  {"type": "long", "name": "ever_married", "required": true}, {"type": "long", "name":
+  "work_type", "required": true}, {"type": "long", "name": "Residence_type", "required":
+  true}, {"type": "double", "name": "avg_glucose_level", "required": true}, {"type":
+  "double", "name": "bmi", "required": true}, {"type": "long", "name": "smoking_status",
+  "required": true}, {"type": "long", "name": "age_group", "required": true}]}'
+source: '{"tags": {"mlflow.user": "satria", "mlflow.source.name": "/home/satria/Documents/Workflow-CI-Pandu-Satria/MLProject/modelling.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "47c4167266c67801710ce1c294307677b569e1b3"}}'
+source_type: code
