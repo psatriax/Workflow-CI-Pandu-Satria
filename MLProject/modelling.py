@@ -24,7 +24,7 @@ from mlflow.models.signature import infer_signature
 # DATASET
 # ==========================================================
 
-DATASET = "membangun_model/stroke_preprocessing_clean.csv"
+DATASET = "stroke_preprocessing_clean.csv"
 
 df = pd.read_csv(DATASET)
 
